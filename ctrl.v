@@ -44,14 +44,14 @@ module ctrl(Op, Funct7, Funct3, Zero,
   // i format 0010011
     wire itype_r  = ~Op[6]&~Op[5]&Op[4]&~Op[3]&~Op[2]&Op[1]&Op[0]; //0010011
     wire i_addi  =  itype_r& ~Funct3[2]& ~Funct3[1]& ~Funct3[0]; // addi 000
-    wire i_andi = itype_r& Funct3[2] & Funct3[1] & Funct[0]; // andi 111
-    wire i_ori = itype_r& Funct3[2] & Funct3[1] & ~Funct[0]; // ori 110
-    wire i_xori = itype_r& Funct3[2] & ~Funct3[1] & ~Funct[0];// xori 100
+    wire i_andi = itype_r& Funct3[2] & Funct3[1] & Funct3[0]; // andi 111
+    wire i_ori = itype_r& Funct3[2] & Funct3[1] & ~Funct3[0]; // ori 110
+    wire i_xori = itype_r& Funct3[2] & ~Funct3[1] & ~Funct3[0];// xori 100
     wire i_srli = itype_r& ~Funct7[6] & ~Funct7[5] & ~Funct7[4] & ~Funct7[3] & ~Funct7[2] & ~Funct7[1] & ~Funct7[0] & Funct3[2] & ~Funct3[1] & Funct3[0];// srli 0000000 101
     wire i_srai = itype_r& ~Funct7[6] & Funct7[5] & ~Funct7[4] & ~Funct7[3] & ~Funct7[2] & ~Funct7[1] & ~Funct7[0] & Funct3[2] & ~Funct3[1] & Funct3[0];// srai 0100000 101
-    wire i_slli = itype_r& ~Funct7[6] & ~Funct7[5] & ~Funct7[4] & ~Funct7[3] & ~Funct7[2] & ~Funct7[1] & ~Funct7[0] & ~Funct3[2] & ~Funct3[1] & Funct3[0]// slli 0000000 001
-    wire i_slti = itype_r& ~Funct3[2] & Funct3[1] & ~Funct[0];// slti 010
-    wire i_sltui = itype_r& ~Funct3[2] & Funct3[1] & Funct[0]// sltui 011
+    wire i_slli = itype_r& ~Funct7[6] & ~Funct7[5] & ~Funct7[4] & ~Funct7[3] & ~Funct7[2] & ~Funct7[1] & ~Funct7[0] & ~Funct3[2] & ~Funct3[1] & Funct3[0];// slli 0000000 001
+    wire i_slti = itype_r& ~Funct3[2] & Funct3[1] & ~Funct3[0];// slti 010
+    wire i_sltui = itype_r& ~Funct3[2] & Funct3[1] & Funct3[0];// sltui 011
     	
   // s format 0100011
     wire stype  = ~Op[6]&Op[5]&~Op[4]&~Op[3]&~Op[2]&Op[1]&Op[0]; //0100011
@@ -68,8 +68,8 @@ module ctrl(Op, Funct7, Funct3, Zero,
 
   // j format 1101111
     wire i_jal  = Op[6]& Op[5]&~Op[4]& Op[3]& Op[2]& Op[1]& Op[0];  // jal 1101111
-    // jalr 1100111
-    wire i_jalr = Op[6] & Op[5] & ~Op[4] & ~Op[3] & Op[2] & Op[1] & Op[0];
+    // jalr 1100111 000
+    wire i_jalr = Op[6] & Op[5] & ~Op[4] & ~Op[3] & Op[2] & Op[1] & Op[0] & ~Funct3[2] & ~Funct3[1] & ~Funct3[0];
 
   // generate control signals
   assign RegWrite   = rtype | itype_r | LUI | itype_l | i_jal | i_jalr; // register write
@@ -83,7 +83,7 @@ module ctrl(Op, Funct7, Funct3, Zero,
   // EXT_CTRL_BTYPE	      6'b000100
   // EXT_CTRL_UTYPE	      6'b000010
   // EXT_CTRL_JTYPE	      6'b000001
-  assign EXTOp[5]    = i_slli | i_srai | i_slli;
+  assign EXTOp[5]    = i_slli | i_srai | i_srli;
   assign EXTOp[4]    = i_addi | itype_l | i_andi | i_slti | i_sltui | i_ori | i_xori | i_jalr;
   assign EXTOp[3]    = stype; 
   assign EXTOp[2]    = sbtype; 

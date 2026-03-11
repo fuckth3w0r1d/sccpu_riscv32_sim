@@ -32,6 +32,29 @@ r1
 !i113 1
 Z4 o-work work
 Z5 tCvgOpt 0
+vctrl
+!s110 1773237620
+!i10b 1
+!s100 of10jl0m@`HajG=ik4ePi2
+R0
+IQTUbJOPHB_gTG?<jGJHkj0
+R1
+R2
+w1773237599
+8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/ctrl.v
+FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/ctrl.v
+!i122 10
+L0 3 131
+R3
+r1
+!s85 0
+31
+!s108 1773237619.000000
+!s107 ctrl_encode_def.v|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/ctrl.v|
+!i113 1
+R4
+R5
 vdm
 Z6 !s110 1773237091
 !i10b 1
