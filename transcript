@@ -13,3 +13,34 @@
 # 12 compiles, 2 failed with 7 errors.
 # Compile of alu.v was successful.
 # Compile of ctrl.v was successful.
+vsim -gui work.sccomp_tb
+# vsim -gui work.sccomp_tb 
+# Start time: 22:04:06 on Mar 11,2026
+# Loading work.sccomp_tb
+# Loading work.sccomp
+# Loading work.SCCPU
+# Loading work.ctrl
+# Loading work.PC
+# Loading work.NPC
+# Loading work.EXT
+# Loading work.RF
+# Loading work.alu
+# Loading work.dm
+# Loading work.im
+add wave -position insertpoint sim:/sccomp_tb/*
+run 100ns
+# ** Warning: (vsim-7) Failed to open readmem file "rv32_sc_sim.dat" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp_tb.v(12)
+#    Time: 0 ns  Iteration: 0  Instance: /sccomp_tb
+# 
+#  pc = xxxxxxxx: 
+#  pc = 00000000: 
+#  pc = 00000004: 
+#  pc = 00000008: 
+#  pc = 0000000c: 
+#  pc = 00000010: 
+#  pc = 00000014: 
+#  pc = 00000018: 
+#  pc = 0000001c: 
+#  pc = 00000020: 
+ pc = 00000024: Compile of sccomp_tb.v was successful.

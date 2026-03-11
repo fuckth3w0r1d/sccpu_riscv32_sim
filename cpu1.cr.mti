@@ -1,0 +1,74 @@
+C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/alu.v {1 {vlog -work work -stats=none {C:\Users\H\mywork\course\cpuLab\sccpu_riscv32\alu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/PC.v {1 {vlog -work work -stats=none C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/SCCPU.v {1 {vlog -work work -stats=none C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/SCCPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SCCPU
+
+Top level modules:
+	SCCPU
+
+} {} {}} C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/RF.v {1 {vlog -work work -stats=none C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/RF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/ctrl.v {1 {vlog -work work -stats=none C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/ctrl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp.v {1 {vlog -work work -stats=none C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sccomp
+
+Top level modules:
+	sccomp
+
+} {} {}} C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/im.v {1 {vlog -work work -stats=none C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/im.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/ctrl_encode_def.v {1 {vlog -work work -stats=none C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/ctrl_encode_def.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/dm.v {1 {vlog -work work -stats=none C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/dm.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/EXT.v {1 {vlog -work work -stats=none C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/EXT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/NPC.v {1 {vlog -work work -stats=none C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/NPC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}}
