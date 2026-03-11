@@ -9,7 +9,7 @@ module sccomp_tb();
 
    initial begin
      // input instructions for simulation, rv32_sc_sim
-      $readmemh("riscv_sidascsorting_sim.dat", sccomp.U_imem.RAM); //Test_30_Instr.dat
+      $readmemh("Test_30_Instr.dat", sccomp.U_imem.RAM); //Test_30_Instr.dat
 
       clk = 1;
       rstn = 1;

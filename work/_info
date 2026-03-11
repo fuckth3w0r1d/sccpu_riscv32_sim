@@ -221,23 +221,23 @@ R7
 R4
 R5
 vsccomp_tb
-!s110 1773238463
+!s110 1773238663
 !i10b 1
-!s100 gDIfkO;89A8PRWb2;HMQK3
+!s100 AR7<;Mh6?ga=3AX7B_eB71
 R0
-I_3BAg^YKkOJ1cMX:ZVBEV1
+IPcS9H`HfWbD2oDE8]UaVl1
 R1
 R2
-w1773238444
+w1773238655
 8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp_tb.v
 FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp_tb.v
-!i122 11
+!i122 12
 L0 2 24
 R3
 r1
 !s85 0
 31
-!s108 1773238463.000000
+!s108 1773238663.000000
 !s107 C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp_tb.v|
 !i113 1
