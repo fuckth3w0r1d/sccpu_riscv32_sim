@@ -1,0 +1,14 @@
+# Compile of alu.v failed with 2 errors.
+# Compile of ctrl.v failed with 5 errors.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of SCCPU.v was successful.
+# 12 compiles, 2 failed with 7 errors.
+# Compile of alu.v was successful.

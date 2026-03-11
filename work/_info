@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,238 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/H/intelFPGA/20.1
+valu
+!s110 1773237267
+!i10b 1
+!s100 W1ge[jS>^ZTDiYFCH_dQI3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2nmC3NJ_<G3Gb983P=3EI3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/H/mywork/course/cpuLab/sccpu_riscv32
+w1773237258
+8C:\Users\H\mywork\course\cpuLab\sccpu_riscv32\alu.v
+FC:\Users\H\mywork\course\cpuLab\sccpu_riscv32\alu.v
+!i122 9
+L0 3 35
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1773237267.000000
+!s107 ctrl_encode_def.v|C:\Users\H\mywork\course\cpuLab\sccpu_riscv32\alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\H\mywork\course\cpuLab\sccpu_riscv32\alu.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vdm
+Z6 !s110 1773237091
+!i10b 1
+!s100 `@SOz?<MoU<VK9i=NGWLT2
+R0
+I[UbIHGhkRaYNJMAnI5oFF2
+R1
+R2
+w1739064774
+8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/dm.v
+FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/dm.v
+!i122 0
+L0 3 21
+R3
+r1
+!s85 0
+31
+Z7 !s108 1773237091.000000
+!s107 ctrl_encode_def.v|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/dm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/dm.v|
+!i113 1
+R4
+R5
+vEXT
+R6
+!i10b 1
+!s100 e_X4`cA]Vb>9c@z2z[8H[0
+R0
+IgamMAi@MBi2n?:j5]z;gV2
+R1
+R2
+w1773236301
+8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/EXT.v
+FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/EXT.v
+!i122 1
+L0 2 23
+R3
+r1
+!s85 0
+31
+R7
+!s107 ctrl_encode_def.v|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/EXT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/EXT.v|
+!i113 1
+R4
+R5
+n@e@x@t
+vim
+R6
+!i10b 1
+!s100 BH4DSME]Y6FNi@@0bnA540
+R0
+IP`PcfzEgVU9YlbNY==Wcj0
+R1
+R2
+w1738914030
+8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/im.v
+FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/im.v
+!i122 2
+L0 2 5
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/im.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/im.v|
+!i113 1
+R4
+R5
+vNPC
+R6
+!i10b 1
+!s100 @kPGO5YOOmWbc9Z0h5i^E1
+R0
+IIB<LD0ZW_3eH_1W@?RD<T3
+R1
+R2
+w1773236605
+8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/NPC.v
+FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/NPC.v
+!i122 3
+L0 3 27
+R3
+r1
+!s85 0
+31
+R7
+!s107 ctrl_encode_def.v|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/NPC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/NPC.v|
+!i113 1
+R4
+R5
+n@n@p@c
+vPC
+R6
+!i10b 1
+!s100 S0PDdJSHUBnGjHLZ[lhO=3
+R0
+IzCHn2AJcXe@c;OLjRPj^;1
+R1
+R2
+w1738896040
+8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/PC.v
+FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/PC.v
+!i122 4
+L0 1 14
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/PC.v|
+!i113 1
+R4
+R5
+n@p@c
+vRF
+R6
+!i10b 1
+!s100 SPHZNfzFRBTK`J?nIKzz81
+R0
+I=cgCVcoU5US`WMJlR68bc0
+R1
+R2
+w1739438208
+8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/RF.v
+FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/RF.v
+!i122 5
+L0 1 33
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/RF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/RF.v|
+!i113 1
+R4
+R5
+n@r@f
+vsccomp
+R6
+!i10b 1
+!s100 Ia_N=9887Ia:DFC2F33861
+R0
+IFO4WGKa5SZW=]<z1TZe;<3
+R1
+R2
+w1739506418
+8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp.v
+FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp.v
+!i122 6
+L0 2 42
+R3
+r1
+!s85 0
+31
+R7
+!s107 ctrl_encode_def.v|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp.v|
+!i113 1
+R4
+R5
+vsccomp_tb
+Z8 !s110 1773237092
+!i10b 1
+!s100 goE1EAEN?RWbTz<DNBa]E0
+R0
+IDdcDRTBaeG9M?2o8mcL_F3
+R1
+R2
+w1739781332
+8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp_tb.v
+FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp_tb.v
+!i122 7
+L0 2 24
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/sccomp_tb.v|
+!i113 1
+R4
+R5
+vSCCPU
+R8
+!i10b 1
+!s100 IM2SXm=bVRc@g59T<0R<N1
+R0
+IWl6aKY5>YH[Wfijh=_Ekz0
+R1
+R2
+w1773237030
+8C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/SCCPU.v
+FC:/Users/H/mywork/course/cpuLab/sccpu_riscv32/SCCPU.v
+!i122 8
+L0 2 101
+R3
+r1
+!s85 0
+31
+!s108 1773237092.000000
+!s107 ctrl_encode_def.v|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/SCCPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/H/mywork/course/cpuLab/sccpu_riscv32/SCCPU.v|
+!i113 1
+R4
+R5
+n@s@c@c@p@u
