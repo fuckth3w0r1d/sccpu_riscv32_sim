@@ -41,24 +41,3 @@ module sccomp(clk, rstn, reg_sel, reg_data);
          );
   
 endmodule
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

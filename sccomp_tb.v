@@ -23,3 +23,6 @@ module sccomp_tb();
    end
    
 endmodule
+// for {set i 0} {$i < 32} {incr i} {
+//   echo [format "x%0d = %s" $i [examine -hex /sccomp_tb/sccomp/U_SCCPU/U_RF/rf($i)]]
+// }
